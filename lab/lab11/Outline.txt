@@ -1,0 +1,37 @@
+**Rough draft Outline**
+Objective - Tic Tac Toe. Choose between playing the game or veiwing the top score. 
+Veiwing the score will open the score's file and display the top winner's in order.
+PLaying the game will ask for both players and then display a 3x3 grid. It will prompt a player with it's name and which square to they want to enter in. 
+After every turn, the program will check if a winner is found or if a tie has occured. If a player wins, the program will save and update that players score in the score file.
+
+int getStartMenu
+return a variable that corralates with the menu options
+
+void getMoveMenu
+determind which player goes next and ask for the row and column to put their token. Then update the board.
+return nothing.
+
+void getPlayers
+Ask for two players and assign them X and O
+
+void displayBoard
+Display the board
+
+int checkWinner
+
+_Bool checkHorizontal (separating functions make's it cleaner to understandwhat's going on, using a function to combine them makes calling it in the main easier)
+
+_Bool checkVertical
+
+_Bool checkDiaganal
+
+_Bool checkTie
+
+void displayScores
+
+void sortScores
+
+void updateScores
+
+_Bool scanForExistingPlayers
+
